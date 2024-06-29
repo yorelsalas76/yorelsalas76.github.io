@@ -9,8 +9,10 @@ background-color:#2A5741;
 }
 
 .foto{
-    width: 141px;
+    margin: 20px;
     height: 234px;
+    display: flex;
+    justify-content: center;
 }
 
 .imagenes2{
@@ -33,6 +35,8 @@ background-color:#2A5741;
 .imagenes6{
     width: 345px;
     height: 478px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -41,6 +45,16 @@ background-color:#2A5741;
     display: none;
 }
 
-.barra{
+.letra_grande{
+    font-size: larger;
+}
+
+
+.h2{
 color: white;
+}
+
+img{
+    display: flex;
+    justify-content: center;
 }
